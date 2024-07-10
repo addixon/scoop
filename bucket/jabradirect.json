@@ -15,9 +15,8 @@
     "installer": {
         "args": [
             "/install",
-            "/quiet",
             "/norestart",
-            "/log C:\\Windows\\Logs\\Software\\JabraDirect-Install.log"
+            "/log .\\jabradirect-install.log"
         ]
     },
     "uninstaller": {
