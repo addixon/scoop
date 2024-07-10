@@ -5,14 +5,20 @@
     "architecture": {
         "32bit": {
             "url": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe",
-            "hash": "587966aa7ea47e9e24a2ea814b63fbbf8215db42c8126c158d4a20ac2b235331",
-            "bin": ".\\JabraDirectSetup.exe /install /quiet /norestart /log C:\\Windows\\Logs\\Software\\JabraDirect-Install.log"
+            "hash": "587966aa7ea47e9e24a2ea814b63fbbf8215db42c8126c158d4a20ac2b235331"
         },
         "64bit": {
             "url": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe",
-            "hash": "587966aa7ea47e9e24a2ea814b63fbbf8215db42c8126c158d4a20ac2b235331",
-            "bin": ".\\JabraDirectSetup.exe /install /norestart /log C:\\Windows\\Logs\\Software\\JabraDirect-Install.log"
+            "hash": "587966aa7ea47e9e24a2ea814b63fbbf8215db42c8126c158d4a20ac2b235331"
         }
+    },
+    "installer": {
+        "args": [
+            "/install",
+            "/quiet",
+            "/norestart",
+            "/log C:\\Windows\\Logs\\Software\\JabraDirect-Install.log"
+        ]
     },
     "uninstaller": {
         "bin": "JabraDirectSetup.exe /uninstall /norestart"
