@@ -13,6 +13,7 @@
         }
     },
     "installer": {
+        "bin": ".\\JabraDirectSetup.exe",
         "args": [
             "/install",
             "/passive",
@@ -20,7 +21,7 @@
         ]
     },
     "uninstaller": {
-        "bin": "JabraDirectSetup.exe",
+        "bin": ".\\JabraDirectSetup.exe",
         "args": [
             "/uninstall",
             "/norestart"
