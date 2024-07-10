@@ -13,7 +13,7 @@
         }
     },
     "installer": {
-        "script": ".\\JabraDirectSetup.exe /install /passive /norestart /log C:\\Windows\\Logs\\Software\\JabraDirect-Install.log"
+        "script": ".\\JabraDirectSetup.exe /install /norestart /log C:\\Windows\\Logs\\Software\\JabraDirect-Install.log"
     },
     "uninstaller": {
         "script": ".\\JabraDirectSetup.exe /uninstall /norestart"
