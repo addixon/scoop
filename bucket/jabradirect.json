@@ -15,8 +15,8 @@
     "installer": {
         "args": [
             "/install",
-            "/norestart",
-            "/log .\\jabradirect-install.log"
+            "/quiet",
+            "/norestart"
         ]
     },
     "uninstaller": {
