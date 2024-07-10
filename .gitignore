@@ -3,4 +3,5 @@
 ._*
 page.html
 checkver-*.html
-/.vs/_scoop/FileContentIndex
+/.vs/**
+**/.vs/**
