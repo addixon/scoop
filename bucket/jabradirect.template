@@ -1,63 +1,18 @@
 {
-    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "",
-    "description": "",
-    "homepage": "",
-    "license": "",
-    "notes": "",
+    "version": "6.16.15901",
+    "description": "Jabra Direct is a software application designed for managing and customizing Jabra audio devices, including headsets and speakerphones. It provides users with advanced control over their Jabra devices, allowing them to adjust settings, update firmware, and configure device features according to their preferences.",
+    "homepage": "https://www.jabra.com/software-and-services/apps/jabra-direct",
     "architecture": {
-        "64bit": {
-            "url": "",
-            "hash": ""
-        },
         "32bit": {
-            "url": "",
-            "hash": ""
-        },
-        "arm64": {
-            "url": "",
-            "hash": ""
+            "url": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe",
+            "hash": "587966aa7ea47e9e24a2ea814b63fbbf8215db42c8126c158d4a20ac2b235331"
         }
     },
-    "pre_install": "",
     "installer": {
-        "script": ""
+        "script": "JabraDirectSetup.exe /install /passive /norestart /log C:\\Windows\\Logs\\Software\\JabraDirect-Install.log"
     },
-    "post_install": [
-        "",
-        ""
-    ],
     "uninstaller": {
-        "script": ""
+        "script": "JabraDirectSetup.exe /uninstall /norestart"
     },
-    "bin": "",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
-    "checkver": {
-        "url": "",
-        "regex": ""
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": ""
-            },
-            "32bit": {
-                "url": ""
-            },
-            "arm64": {
-                "url": ""
-            }
-        },
-        "hash": {
-            "url": "",
-            "regex": ""
-        }
-    }
+    "bin": "C:\\Program Files (x86)\\Jabra\\Direct6\\jabra-direct.exe"
 }
