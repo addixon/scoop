@@ -15,7 +15,7 @@
     "installer": {
         "args": [
             "/install",
-            "/quiet",
+            "/passive",
             "/norestart"
         ]
     },
