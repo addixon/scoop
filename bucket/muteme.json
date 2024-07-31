@@ -13,7 +13,7 @@
         }
     },
     "installer": {
-        "bin": ".\\MuteMe-Client.msi",
+        "bin": ".\\MuteMe Client\\MuteMe-Client.exe",
         "args": [
             "/install",
             "/passive",
