@@ -13,7 +13,7 @@
         }
     },
     "installer": {
-        "bin": ".\\powerplatformcli\\1.0.0\\powerapps-cli-1.0.msi",
+        "bin": ".\\powerapps-cli-1.0.msi",
         "args": [
             "/install",
             "/passive",
