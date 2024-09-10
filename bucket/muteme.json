@@ -13,7 +13,7 @@
         }
     },
     "shortcuts": [
-        [ "C:\\Users\\%USERNAME%\\AppData\\Local\\muteme_client\\app-$version\\MuteMe-Client.exe", "MuteMe"]
+        [ "muteme\\$version\\MuteMe Client\\MuteMe-Client.exe", "MuteMe"]
     ],
     "checkver": {
         "url": "https://muteme.com/pages/enterprise-installer-msi",
