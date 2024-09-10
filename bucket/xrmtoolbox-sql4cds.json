@@ -7,6 +7,7 @@
     "post_install": [
         "New-Item -Path \"$(appdir xrmtoolbox)\\configuration\\NugetPlugins\\MarkMpn.SQL4CDS.$version\" -ItemType \"directory\" -Force",
         "New-Item -Path \"$(appdir xrmtoolbox)\\configuration\\Plugins\\MarkMpn.SQL4CDS\" -ItemType \"directory\" -Force",
+        "Copy-Item \"$dir\\lib\\net452\\Plugins\\MarkMpn.Sql4Cds.dll\" -Destination \"$(appdir xrmtoolbox)\\configuration\\Plugins\" -Force",
         "Copy-Item \"$dir\\lib\\net452\\Plugins\\*\" -Destination \"$(appdir xrmtoolbox)\\configuration\\NugetPlugins\\MarkMpn.SQL4CDS.$version\" -Force -Recurse",
         "Copy-Item \"$dir\\lib\\net452\\Plugins\\MarkMpn.Sql4Cds\\*\" -Destination \"$(appdir xrmtoolbox)\\configuration\\Plugins\\MarkMpn.Sql4Cds\" -Force -Recurse"
     ],
