@@ -1,12 +1,17 @@
 {
-    "version": "1.0.0",
+    "version": "1.34.4",
     "description": "Microsoft Power Platform CLI is a simple, one-stop developer CLI that empowers developers and ISVs to perform various operations in Microsoft Power Platform.",
     "homepage": "https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction",
-    "installer": {
-        "script": "dotnet tool install --global Microsoft.PowerApps.CLI.Tool"
-    },
+    "url": "https://www.nuget.org/api/v2/package/Microsoft.PowerApps.CLI/1.34.4",
     "uninstaller": {
         "script": "dotnet tool uninstall --global Microsoft.PowerApps.CLI.Tool"
     },
-    "bin": "%USERPROFILE%\\.dotnet\\tools"
+    "bin": "%USERPROFILE%\\.dotnet\\tools",
+    "checkver": {
+        "url": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json",
+        "regex": "dotnet add package Microsoft.PowerApps.CLI --version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.nuget.org/api/v2/package/Microsoft.PowerApps.CLI/$version"
+    }
 }
