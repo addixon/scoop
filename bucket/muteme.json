@@ -12,13 +12,14 @@
             "hash": "8B6EEEA7C2DD3202F7CFC97300BBB2066521C41EA18A9C6802790E663B7A8F8A"
         }
     },
-    "installer": {
-        "bin": ".\\MuteMe Client\\MuteMe-Client.exe",
-        "args": [
-            "/install",
-            "/passive",
-            "/norestart"
-        ]
+    "shortcuts": [
+        [ "C:\\Users\\%USERNAME%\\AppData\\Local\\muteme_client\\MuteMe-Client.exe", "MuteMe"]
+    ],
+    "checkver": {
+        "url": "https://muteme.com/pages/enterprise-installer-msi",
+        "regex": "<a href=\"https://mutemedownloads.s3.us-east-2.amazonaws.com/main/([0-9.]+?)/MuteMe-Client.msi\">Direct AWS Link</a>"
     },
-    "bin": "C:\\Users\\%USERNAME%\\AppData\\Local\\muteme_client\\MuteMe-Client.exe"
+    "autoupdate": {
+        "url": "https://mutemedownloads.s3.us-east-2.amazonaws.com/main/$version/MuteMe-Client.msi"
+    }
 }
