@@ -16,6 +16,6 @@
         "regex": "<h1 data-view-component=\"true\" class=\"d-inline mr-3\">v([\\d.]+)</h1>"
     },
     "autoupdate": {
-        "url": "https://github.com/MarkMpn/Sql4Cds/releases/download/v$version/MarkMpn.Sql4Cds.Engine.$version.nupkg"
+        "url": "https://github.com/MarkMpn/Sql4Cds/releases/download/v$version/MarkMpn.Sql4Cds.Engine.$version.nupkg#/sql4cds.zip"
     }
 }
