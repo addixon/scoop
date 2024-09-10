@@ -7,13 +7,6 @@
     "shortcuts": [
         [ "muteme\\current\\MuteMe Client\\MuteMe-Client.exe", "MuteMe"]
     ],
-    "installer": {
-        "args": [
-            "/install",
-            "/passive",
-            "/norestart"
-        ]
-    },
     "bin": "muteme\\current\\MuteMe Client\\MuteMe-Client.exe",
     "checkver": {
         "url": "https://muteme.com/pages/enterprise-installer-msi",
