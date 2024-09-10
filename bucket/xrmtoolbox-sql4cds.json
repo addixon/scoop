@@ -1,0 +1,16 @@
+{
+    "version": "9.3.0",
+    "description": "XrmToolBox plugin to get a SQL Server Management Studio type interface to query your data.",
+    "homepage": "https://markcarrington.dev/sql-4-cds/",
+    "url": "https://github.com/MarkMpn/Sql4Cds/releases/download/v9.3.0/MarkMpn.SQL4CDS.9.3.0.nupkg#/sql4cds.zip",
+    "post_install": [
+        "mkdir  $(appdir xrmtoolbox)\\configuration\\NugetPlugins\\MarkMpn.SQL4CDS.$version",
+        "cp .\\lib\\net452\\Plugins\\* $(appdir xrmtoolbox)\\configuration\\NugetPlugins\\MarkMpn.SQL4CDS.$version" ],
+    "checkver": {
+        "url": "https://github.com/MarkMpn/Sql4Cds/releases/latest",
+        "regex": "<h1 data-view-component=\"true\" class=\"d-inline mr-3\">v([\\d.]+)</h1>"
+    },
+    "autoupdate": {
+        "url": "https://github.com/MarkMpn/Sql4Cds/releases/download/v$version/MarkMpn.Sql4Cds.Engine.$version.nupkg"
+    }
+}
