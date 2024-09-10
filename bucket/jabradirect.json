@@ -7,7 +7,20 @@
         "url": "https://www.jabra.com/footerpages/end-user-license-agreement"
     },
     "installer": {
-        "keep": true
+        "keep": true,
+        "args": [
+            "/install",
+            "/passive",
+            "/norestart"
+        ]
+    },
+    "uninstaller": {
+        "file": "JabraDirectSetup.exe",
+        "args": [
+            "/uninstall",
+            "/passive",
+            "/norestart"
+        ]
     },
     "url": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe",
     "shortcuts": [
