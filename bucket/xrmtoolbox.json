@@ -5,7 +5,7 @@
     "url": "https://github.com/MscrmTools/XrmToolBox/releases/download/v1.2023.12.68/XrmToolbox.zip",
     "hash": "a5bb4fd279023d2ea0c7391e1d35108855ea95f710a7b9d6f55d4bb709fcbf92",
     "shortcuts": [
-        ["xrmtoolbox.exe", "XRM Toolbox", "/overridepath: $(appdir xrmtoolbox)\\configuration"]
+        ["xrmtoolbox.exe", "XRM Toolbox", "/overridepath:$(dir)\\..\\configuration"]
     ],
     "checkver": {
         "url": "https://www.xrmtoolbox.com",
