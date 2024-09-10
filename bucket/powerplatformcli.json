@@ -2,23 +2,13 @@
     "version": "1.0.0",
     "description": "Microsoft Power Platform CLI is a simple, one-stop developer CLI that empowers developers and ISVs to perform various operations in Microsoft Power Platform.",
     "homepage": "https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction",
-    "architecture": {
-        "32bit": {
-            "url": "https://download.microsoft.com/download/D/B/E/DBE69906-B4DA-471C-8960-092AB955C681/powerapps-cli-1.0.msi",
-            "hash": "af4c7058ab52e433ed0e18cb5d5e17256187a1b08add319f94c06c3eac5d9190"
-        },
-        "64bit": {
-            "url": "https://download.microsoft.com/download/D/B/E/DBE69906-B4DA-471C-8960-092AB955C681/powerapps-cli-1.0.msi",
-            "hash": "af4c7058ab52e433ed0e18cb5d5e17256187a1b08add319f94c06c3eac5d9190"
-        }
-    },
+    "url": "https://download.microsoft.com/download/D/B/E/DBE69906-B4DA-471C-8960-092AB955C681/powerapps-cli-1.0.msi",
+    "hash": "af4c7058ab52e433ed0e18cb5d5e17256187a1b08add319f94c06c3eac5d9190",
     "installer": {
-        "bin": ".\\powerapps-cli-1.0.msi",
         "args": [
             "/install",
             "/passive",
             "/norestart"
         ]
-    },
-    "bin": "C:\\Users\\%USERNAME%\\AppData\\Local\\powerapps-cli-1.0\\pac.launcher.exe"
+    }
 }
