@@ -2,6 +2,9 @@
     "version": "9.3.0",
     "description": "XrmToolBox plugin to get a SQL Server Management Studio type interface to query your data.",
     "homepage": "https://markcarrington.dev/sql-4-cds/",
+    "license": {
+        "identifier": "MIT"
+    },
     "url": "https://github.com/MarkMpn/Sql4Cds/releases/download/v9.3.0/MarkMpn.SQL4CDS.9.3.0.nupkg#/sql4cds.zip",
     "hash": "b4d30fce6052fdc850cde0e145947bed8d892ef9044a771c2074f1bc4975869b",
     "post_install": [
