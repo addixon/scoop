@@ -6,7 +6,7 @@
     "uninstaller": {
         "script": "dotnet tool uninstall --global Microsoft.PowerApps.CLI.Tool"
     },
-    "bin": "%USERPROFILE%\\.dotnet\\tools",
+    "bin": "$env:USERPROFILE\\.dotnet\\tools",
     "checkver": {
         "url": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json",
         "regex": "dotnet add package Microsoft.PowerApps.CLI --version ([\\d.]+)"
