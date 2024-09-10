@@ -1,19 +1,19 @@
 {
-    "version": "0.23.4",
+    "version": "0.23.9",
     "description": "A powerful yet simple tool that helps you take control of your virtual meetings and classes.",
     "homepage": "https://muteme.com/",
     "architecture": {
         "32bit": {
-            "url": "https://mutemedownloads.s3.us-east-2.amazonaws.com/main/0.23.4/MuteMe-Client.msi",
+            "url": "https://mutemedownloads.s3.us-east-2.amazonaws.com/main/0.23.9/MuteMe-Client.msi",
             "hash": "8B6EEEA7C2DD3202F7CFC97300BBB2066521C41EA18A9C6802790E663B7A8F8A"
         },
         "64bit": {
-            "url": "https://mutemedownloads.s3.us-east-2.amazonaws.com/main/0.23.4/MuteMe-Client.msi",
+            "url": "https://mutemedownloads.s3.us-east-2.amazonaws.com/main/0.23.9/MuteMe-Client.msi",
             "hash": "8B6EEEA7C2DD3202F7CFC97300BBB2066521C41EA18A9C6802790E663B7A8F8A"
         }
     },
     "shortcuts": [
-        [ "C:\\Users\\%USERNAME%\\AppData\\Local\\muteme_client\\MuteMe-Client.exe", "MuteMe"]
+        [ "C:\\Users\\%USERNAME%\\AppData\\Local\\muteme_client\\app-$version\\MuteMe-Client.exe", "MuteMe"]
     ],
     "checkver": {
         "url": "https://muteme.com/pages/enterprise-installer-msi",
