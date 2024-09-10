@@ -10,9 +10,6 @@
         "Copy-Item \"$dir\\lib\\net452\\Plugins\\*\" -Destination \"$(appdir xrmtoolbox)\\configuration\\NugetPlugins\\MarkMpn.SQL4CDS.$version\" -Force -Recurse",
         "Copy-Item \"$dir\\lib\\net452\\Plugins\\MarkMpn.Sql4Cds\\*\" -Destination \"$(appdir xrmtoolbox)\\configuration\\Plugins\\MarkMpn.Sql4Cds\" -Force -Recurse"
     ],
-    "shortcuts": [
-        ["$(appdir xrmtoolbox)\\current\\xrmtoolbox.exe", "XRM Toolbox", "/overridepath: $(appdir xrmtoolbox)\\configuration"]
-    ],
     "checkver": {
         "url": "https://github.com/MarkMpn/Sql4Cds/releases/latest",
         "regex": "<h1 data-view-component=\"true\" class=\"d-inline mr-3\">v([\\d.]+)</h1>"
