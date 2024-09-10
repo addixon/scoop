@@ -1,0 +1,16 @@
+{
+    "version": "1.2023.12.68",
+    "description": "XrmToolBox is a Windows application that connects to Microsoft Dataverse.",
+    "homepage": "https://www.xrmtoolbox.com/",
+    "url": "https://github.com/MscrmTools/XrmToolBox/releases/download/v1.2023.12.68/XrmToolbox.zip",
+    "shortcuts": [
+        ["xrmtoolbox.exe", "XRM Toolbox"]
+    ],
+    "checkver": {
+        "url": "https://www.xrmtoolbox.com",
+        "regex": "<a class=\"btn btn-lg btn-success\" href=\"https://github.com/MscrmTools/XrmToolBox/releases/download/v([0-9.]+?)/XrmToolbox.zip\">Download latest version ($version)</a>"
+    },
+    "autoupdate": {
+        "url": "https://github.com/MscrmTools/XrmToolBox/releases/download/v$version/XrmToolbox.zip"
+    }
+}
