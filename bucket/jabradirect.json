@@ -10,6 +10,9 @@
         "keep": true
     },
     "url": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe",
+    "shortcuts": [
+        ["C:\\Program Files (x86)\\Jabra\\Direct6\\jabra-direct.exe", "Jabra Direct"]
+    ],
     "hash": "e262e66ef1685994228dc7f0915c1e379e7e31f5438ff8db6a765a5813ab177f",
     "checkver": {
         "url": "https://www.jabra.com/software-and-services/jabra-direct",
