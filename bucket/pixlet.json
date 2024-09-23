@@ -6,7 +6,8 @@
         "identifier": "Apache-2.0",
         "url": "https://github.com/tidbyt/pixlet/blob/latest/LICENSE.txt"
     },
-    "url": "https://github.com/tidbyt/pixlet/releases/download/v$version/pixlet_$version_windows_amd64.tar.gz",
+    "url": "https://github.com/tidbyt/pixlet/releases/download/v0.33.5/pixlet_0.33.5_windows_amd64.tar.gz",
+    "hash": "9bee60ed0da4008fdead172a020232672b638af39bae33b72db50ae6098dcb45",
     "shortcuts": [
         [ ".\\pixlet\\pixlet.exe", "Pixlet"]
     ],
