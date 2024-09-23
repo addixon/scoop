@@ -7,7 +7,7 @@
         "url": "https://github.com/tidbyt/pixlet/blob/v0.33.5/LICENSE.txt"
     },
     "url": "https://github.com/tidbyt/pixlet/releases/latest",
-    "hash": "9bee60ed0da4008fdead172a020232672b638af39bae33b72db50ae6098dcb45",
+    "hash": "93e42a46564190e506897818e02c7a406a9c5a644ee3ae6bd67b62b4048bfc64",
     "shortcuts": [
         [ ".\\pixlet\\pixlet.exe", "Pixlet"]
     ],
