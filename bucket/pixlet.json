@@ -9,9 +9,9 @@
     "url": "https://github.com/tidbyt/pixlet/releases/download/v0.33.5/pixlet_0.33.5_windows_amd64.tar.gz",
     "hash": "9bee60ed0da4008fdead172a020232672b638af39bae33b72db50ae6098dcb45",
     "shortcuts": [
-        [ "~\\scoop\\apps\\pixlet\\current\\pixlet.exe", "Pixlet"]
+        [ "pixlet.exe", "Pixlet"]
     ],
-    "bin": [["$bucketsdir\\$app\\current\\pixlet.exe", "pixlet"]],
+    "bin": ["pixlet.exe"],
     "checkver": {
         "url": "https://github.com/tidbyt/pixlet/releases/latest",
         "regex": "<h1 data-view-component=\"true\" class=\"d-inline mr-3\">([0-9.]+?)</h1>"
