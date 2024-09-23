@@ -11,7 +11,7 @@
     "shortcuts": [
         [ "~\\scoop\\apps\\pixlet\\current\\pixlet.exe", "Pixlet"]
     ],
-    "bin": [["pixlet.exe", "pixlet"]],
+    "bin": [[".\\pixlet.exe", "pixlet"]],
     "checkver": {
         "url": "https://github.com/tidbyt/pixlet/releases/latest",
         "regex": "<h1 data-view-component=\"true\" class=\"d-inline mr-3\">([0-9.]+?)</h1>"
