@@ -11,8 +11,7 @@
         ["xrmtoolbox.exe", "XRM Toolbox", "/overridepath:$dir\\..\\configuration"]
     ],
     "checkver": {
-        "url": "https://www.xrmtoolbox.com",
-        "regex": "((?<=v)([0-9.]+))"
+        "github": "https://github.com/MscrmTools/XrmToolBox"
     },
     "autoupdate": {
         "architecture": {
