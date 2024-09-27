@@ -12,7 +12,7 @@
     ],
     "checkver": {
         "url": "https://www.xrmtoolbox.com",
-        "regex": "<a class=\"btn btn-lg btn-success\" href=\"https://github.com/MscrmTools/XrmToolBox/releases/download/v([0-9.]+?)/XrmToolbox.zip\">Download latest version ($version)</a>"
+        "regex": "<a class=\"btn btn-lg btn-success\" href=\"https://github.com/MscrmTools/XrmToolBox/releases/download/v((?<=v)([0-9.]+))/XrmToolbox.zip\">"
     },
     "autoupdate": {
         "url": "https://github.com/MscrmTools/XrmToolBox/releases/download/v$version/XrmToolbox.zip"
